@@ -22,7 +22,7 @@ header{
 }
 
 header .content-right{
-    padding: 4px 5px;
+    padding: 3px 5px;
     background-color: grey;
     margin-right: 10px;
     border-radius: 5px;
@@ -44,7 +44,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: calc(100vh - 110px);
+    height: calc(100vh - 90px);
     background-color: black;
     overflow: scroll;
 }
@@ -63,10 +63,47 @@ main .box p{
     background-color:rgba(0, 0, 0, 0.5);
 }
 
+/* footer */
 
 footer{
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background-color: red;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+}
+
+footer ul li{
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+footer ul li i{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+footer ul li .fa-share-square:active{
+    color: green;
+}
+
+footer .content-right{
+    background-color: gray;
+    padding: 22px 15px;
+    color: red;
+    font-weight:bold ;
+}
+
+footer .fa-chevron-up{
+    font-size: 11px;
+    padding-top: 15px;
 }
