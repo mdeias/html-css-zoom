@@ -17,21 +17,21 @@ header{
     justify-content: flex-end;
     align-items: center;
     height: 30px;
-    background-color: black;
+    background-color: #000001;
     padding-right: 10px;
 }
 
 header .content-right{
     padding: 3px 5px;
-    background-color: grey;
+    background-color: #494a4b;
     margin-right: 10px;
     border-radius: 5px;
     color: white;
 }
 
 .icon-right{
-    padding: 4px 5px;
-    background-color: grey;
+    padding: 3px 5px;
+    background-color: #494a4b;
     border-radius: 5px;
     color: white;
 
@@ -45,7 +45,7 @@ main{
     justify-content: space-around;
     align-items: center;
     height: calc(100vh - 90px);
-    background-color: black;
+    background-color: #000001;
     overflow: scroll;
 }
 
@@ -70,7 +70,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: black;
+    background-color: #212221;
 }
 
 footer ul{
@@ -82,7 +82,7 @@ footer ul{
 
 footer ul li{
     margin: 8px;
-    color: white;
+    color: #fdfffe;
     font-weight: bold;
     
 }
@@ -97,9 +97,9 @@ footer ul li .fa-share-square:active{
 }
 
 footer .content-right{
-    background-color: gray;
+    background-color: #494a4b;
     padding: 22px 15px;
-    color: red;
+    color: #f60806;
     font-weight:bold ;
 }
 
